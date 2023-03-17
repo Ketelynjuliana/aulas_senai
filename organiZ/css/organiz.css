@@ -4,9 +4,10 @@ section{
 }
 /*body*/
 body{
-    background-color: rgb(255, 247, 237);
+    background-color: rgb(250, 239, 226);
     margin: 150px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 50px ;
     
 }
 /*z*/
@@ -17,73 +18,127 @@ span{
 /*frase principal*/
 .principal{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 40px;
 }
 /*logo e form*/
 header{
     display: flex;
-    
-
+    justify-content: space-between;
+}
+.conta{
+    background-color: rgb(249, 227, 207);
+    border-radius: 30px;
+    font-size: 15px;
+    height: 30px;
+}
+.conta:hover{
+    background-color: red;
+    transition: all 0.3s;
+}
+a:link {
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
+}
+a{
+    color: black; 
 }
 /*home*/
 .oquesomos{
-    border: 1px solid black;
     padding: 20px;
     border-radius: 5px;
-    font-size: 19px;
+    font-size: 21px;
     margin-right: 50px ;
-    background-color: rgb(254, 72, 72);
-    color: white;
-    
+    border: 1px solid red;
+    padding-top: 45px;
 }
 .oqueoferecemos{
-    border: 1px solid black;
     padding: 10px;
     border-radius: 5px;
     font-size: 17px;
     height: 300px;
-    background-color: rgb(254, 72, 72);
-    color: white;
+    border: 1px solid red;
+    
+}
+.oqs{
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+}
+.oqo{
+    color: red;
 }
 /*planos*/
+li{
+    list-style-type: none;
+}
+.po{
+    margin: 60px ;
+    text-align: center;
+    font-size: 35px;  
+}
 .planofree{
     border: 1px solid black;
     padding-left: 10px;
     border-radius: 5px;
-    font-size: 17px;
-    margin-top: 80px;
+    font-size: 18px;
     width: 300px;
-    height:400px ;
-    background-color:rgb(254, 72, 72);
+    height:468px ;
+    background-color:red;
     color: white;
     text-align: center;
-    
-}
-.planofree h4{
-    padding: 0px;
-    
 }
 .planomensal{
     border: 1px solid black;
     padding: 10px;
     border-radius: 5px;
-    font-size: 17px;
-    margin-top: 80px;
+    font-size: 18px;
     margin-left: 150px;
     width: 300px;
-    height:400px ;
-    background-color: rgb(254, 72, 72);
+    height:450px ;
+    background-color: red;
     color: white;
+    text-align: center;
 }
-
 .planoanual{
     border: 1px solid black;
     padding: 10px;
     border-radius: 5px;
-    font-size: 17px;
-    margin-top: 80px;
+    font-size: 18px;
     margin-left: 150px;
     width: 300px;
-    height:400px ;
-    background-color: rgb(254, 72, 72);
+    height:450px ;
+    background-color: red;
     color: white;
+    text-align: center;
+}
+#pm{
+    margin-top: 3px;
+}
+#pa{
+    margin-top: 1px;
+}
+/*botao cadastrar*/
+.submit_btn{
+    float: left;
+    display: block;
+    padding: 5px 30px;
+    border: none;
+    outline: none;
+    background-color: rgb(255, 247, 237);
+    color: red;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    border-radius: 6px;
+    margin: 15px auto;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-left: 57px;
+    
+}
+.submit_btn:hover{
+    background-color: rgb(219, 216, 216);
+    color: red;
+    transform: scale(1.03);
 }

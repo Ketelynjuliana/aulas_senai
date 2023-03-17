@@ -10,10 +10,16 @@
 </head>
 <header>
     <!--logo aqui-->
-    <img src="imagem/logo organiZ.png" alt="logo" height="50px">
-    <ul>
-        <li> <a href="file:///C:/Users/Aluno/Documents/GitHub/aulas_senai/exercicios/organiZ/formulario.html">Criar conta gratuita</a> </li>
-    </ul>
+    <img src="imagem/logo organiZ.png" alt="logo" height="70px">
+
+    
+    <button class="conta">
+        <a href="file:///C:/Users/Aluno/Documents/GitHub/aulas_senai/exercicios/organiZ/formulario.html">Criar
+            conta gratuita</a>
+    </button>
+
+
+
 </header>
 
 <body>
@@ -23,15 +29,15 @@
 
     <section>
         <div class="oquesomos">
-            <h1>O que somos?</h1>
+            <h1 class="oqs">O que somos?</h1>
             <p>A organiZ é um lugar onde você poderá organizar sua rotina e compromissos do dia a dia, <br>
                 deixar tudo mais tranquilo sem deixar nada para trás e sem correria! <br>
                 Nossa equipe Programasters preparou um cantinho para você, pensando em todos os conflitos em <br>
                 relação aos a fazeres cotidianos que precisam de cuidados.</p>
         </div>
-        
+
         <div class="oqueoferecemos">
-            <h1>O que oferecemos?</h1>
+            <h1 class="oqo">O que oferecemos?</h1>
             <ul>
                 <li>Calendário</li><br>
                 <li>Planejamento Mensal</li><br>
@@ -39,67 +45,65 @@
                 <li>To do list</li><br>
                 <li>Anotações</li><br>
                 <li>Lembretes</li><br>
-                
+
             </ul>
         </div>
 
     </section>
-
+    <h1 class="po">Planos oferecidos:</h1>
     <section>
-        <h1>Planos oferecidos:</h1>
+
         <div class="planofree">
             <h4>Plano gratuito</h4>
-            <p>- Calendário;
-                <br>
-               - Anotações;
-               <br>
-               <input type="hidden" value="cadastro">
-               <button type="submit" name="submit" class="submit_btn">Cadastre-se</button>
+            <ul>
+                <li>Calendário;</li><br>
+                <li>Anotações;</li>
+            </ul>
+            <div>
+                <input type="hidden" value="cadastro">
+                <button type="submit" name="submit" class="submit_btn">Cadastre-se</button>
+            </div>
 
-            </p>
 
         </div>
 
         <div class="planomensal">
             <h4>Plano mensal</h4>
-            <p>- Calendário;
-                <br>
-                - Anotações;
-                <br>
-                - Planejamneto semanal;
-                <br>
-                - Planejamento mensal;
-                <br>
-                - To do list;
-                <br>
-                <h1>R$ 3,60 mensal</h1>
+            <ul>
+                <li>Calendário;</li><br>
+                <li>Anotações;</li><br>
+                <li>Planejamento semanal;</li><br>
+                <li>Planejamento mensal;</li><br>
+                <li>To do list;</li><br>
+            </ul>
+
+            <h1 id="pm">R$ 3,60 mensal</h1>
+            <div>
                 <input type="hidden" value="cadastro">
                 <button type="submit" name="submit" class="submit_btn">Cadastre-se</button>
-               
-            </p>
+            </div>
+
 
         </div>
 
         <div class="planoanual">
             <h4>Plano anual</h4>
-            <p>
-                - Calendário;
-                <br>
-                - Anotações;
-                <br>
-                - Planejamento semanal;
-                <br>
-                - Planejamento mensal;
-                <br>
-                - To do list;
-                <br>
-                - lembretes; *
-                <br>
-                <h1>R$ 42,00 anual</h1>
+            <ul id="planoanual">
+                <li>Calendário;</li><br>
+                <li>Anotações;</li><br>
+                <li>Planejamento semanal;</li><br>
+                <li>Planejamento mensal;</li><br>
+                <li>To do list;</li><br>
+                <li>Lembretes;*</li><br>
+
+            </ul>
+
+            <h1 id="pa">R$ 42,00 anual</h1>
+            <div>
                 <input type="hidden" value="cadastro">
                 <button type="submit" name="submit" class="submit_btn">Cadastre-se</button>
-               
-            </p>
+            </div>
+
 
         </div>
 
