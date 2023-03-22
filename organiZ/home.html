@@ -11,23 +11,32 @@
 <header>
     <!--logo aqui-->
     <img src="imagem/logo organiZ.png" alt="logo" height="70px">
+    <!--menu do header-->
+    <nav class="menu"><!--foi listado os itens dos produtos e links com a ref-->
+        <ul>
+            <li><a href="#oquesomos"> ㅤㅤSobre nósㅤㅤ</a></li>
+            <li><a href="#oqueoferecemos"> ㅤㅤProdutosㅤㅤ</a></li>
+            <li><a href="#planos">ㅤㅤPlanosㅤㅤ</a></li>
+            <li><a href="file:///C:/Users/Aluno/Documents/GitHub/programasters/organiZ/login.html">ㅤㅤLoginㅤㅤ</a></li>
 
-    
-    <button class="conta">
-        <a href="file:///C:/Users/Aluno/Documents/GitHub/aulas_senai/exercicios/organiZ/formulario.html">Criar
+        </ul>
+    </nav>
+<!--botao da conta gratuita-->
+    <button class="conta"><!--foi criado um botao para ser direcionado para a pagina de criar conta-->
+        <a href="file:///C:/Users/Aluno/Documents/GitHub/programasters/organiZ/formulario.html">Criar
             conta gratuita</a>
     </button>
-
-
+   
 
 </header>
 
 <body>
+    <!--frase inicial maior negrito-->
     <main>
         <h1 class="principal">Organi<span>Z</span>: Deixe sua rotina mais leve e organizada</h1>
     </main>
-
-    <section>
+<!--texto sobre o que somos-->
+    <section id="oquesomos">
         <div class="oquesomos">
             <h1 class="oqs">O que somos?</h1>
             <p>A organiZ é um lugar onde você poderá organizar sua rotina e compromissos do dia a dia, <br>
@@ -36,58 +45,69 @@
                 relação aos a fazeres cotidianos que precisam de cuidados.</p>
         </div>
 
-        <div class="oqueoferecemos">
+
+
+    </section>
+    <!--titulo produtos-->
+<h1 class="prod">Produtos:</h1>
+    <section id="oqueoferecemos">
+<!--lista sobre o que oferecemos-->
+        <div class="oqueoferecemos"><!--foi listados os produtos-->
             <h1 class="oqo">O que oferecemos?</h1>
             <ul>
-                <li>Calendário</li><br>
-                <li>Planejamento Mensal</li><br>
-                <li>Planejamento Semanal</li><br>
-                <li>To do list</li><br>
-                <li>Anotações</li><br>
-                <li>Lembretes</li><br>
+                <li>-Calendário;</li><br>
+                <li>-Planejamento Mensal;</li><br>
+                <li>-Planejamento Semanal;</li><br>
+                <li>-To do list;</li><br>
+                <li>-Anotações;</li><br>
+                <li>-Lembretes;</li><br>
 
             </ul>
         </div>
-
+        <!--imagem ao lado da lista calendario-->
+        <div class="calendario">
+            <img src="imagem/calendario-sede.png" alt="calendario" height="400px" width="300px">
+        </div>
     </section>
+<!--titulo dos planos-->
     <h1 class="po">Planos oferecidos:</h1>
-    <section>
-
-        <div class="planofree">
+    <section id="planos">
+<!--plano gratuito lista-->
+        <div class="planofree"><!--lista de produtos do plano free-->
             <h4>Plano gratuito</h4>
-            <ul>
-                <li>Calendário;</li><br>
-                <li>Anotações;</li>
-            </ul>
+
+            <p> Calendário;</p>
+            <p> Anotações;</p><br>
+
             <div>
-                <input type="hidden" value="cadastro">
+                <input type="hidden" value="cadastro"><!--botao de casdastro-->
                 <button type="submit" name="submit" class="submit_btn">Cadastre-se</button>
             </div>
 
 
         </div>
-
-        <div class="planomensal">
-            <h4>Plano mensal</h4>
+<!--plano mensal lista-->
+        <div class="planomensal"><!--lista de produtos do plano mensal-->
+            <h4 class="planom">Plano mensal</h4>
             <ul>
-                <li>Calendário;</li><br>
-                <li>Anotações;</li><br>
-                <li>Planejamento semanal;</li><br>
-                <li>Planejamento mensal;</li><br>
-                <li>To do list;</li><br>
+                <p> Calendário;</p>
+                <p> Anotações;</p>
+                <p> Planejamento semanal;</p>
+                <p> Planejamento mensal;</p>
+                <p> To do list;</p><br>
             </ul>
 
             <h1 id="pm">R$ 3,60 mensal</h1>
             <div>
-                <input type="hidden" value="cadastro">
+                <input type="hidden" value="cadastro"><!--botao de cadastro-->
                 <button type="submit" name="submit" class="submit_btn">Cadastre-se</button>
             </div>
 
 
         </div>
-
-        <div class="planoanual">
-            <h4>Plano anual</h4>
+<!--plano anual lista-->
+        <div class="planoanual"><!--lista de produtos do plano anual-->
+            <h4 class="planom">Plano anual</h4>
             <ul id="planoanual">
                 <li>Calendário;</li><br>
                 <li>Anotações;</li><br>
@@ -100,7 +120,7 @@
 
             <h1 id="pa">R$ 42,00 anual</h1>
             <div>
-                <input type="hidden" value="cadastro">
+                <input type="hidden" value="cadastro"><!--botao de cadastro-->
                 <button type="submit" name="submit" class="submit_btn">Cadastre-se</button>
             </div>
 
@@ -111,5 +131,11 @@
 
     </section>
 </body>
+<!--email rodapé-->
+<footer>
+    <h3>E-mail de contato
+        <br>organiz@gmail.com
+    </h3>
+</footer>
 
 </html>

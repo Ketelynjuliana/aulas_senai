@@ -1,6 +1,8 @@
-/*section home e planos*/
+/*section home e planos linha de divisao*/
 section{
     display: flex;
+    border-bottom: 1px solid rgb(184, 5, 5);
+    padding: 0em 0em 2em;
 }
 /*body*/
 body{
@@ -8,6 +10,7 @@ body{
     margin: 150px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-top: 50px ;
+    border-bottom: 1px solid rgb(184, 5, 5);
     
 }
 /*z*/
@@ -21,26 +24,44 @@ span{
     text-align: center;
     font-size: 40px;
 }
-/*logo e form*/
+/*logo e form e menu*/
+.menu ul{
+    display: flex;
+}
+/*borda vermelha nos itens do menu*/
+.menu li{
+    border: 2px solid red;
+    border-radius: 10px;
+    padding-left: 3px;
+}
+/*hover nos itens do menu*/
+.menu a:hover{
+    color: red;
+}
+/*espaçamento igual para os itens da header*/
 header{
     display: flex;
     justify-content: space-between;
 }
+/*botao da conta gratuita*/
 .conta{
     background-color: rgb(249, 227, 207);
     border-radius: 30px;
     font-size: 15px;
     height: 30px;
 }
+/*hover do botao da conta gratuita*/
 .conta:hover{
     background-color: red;
     transition: all 0.3s;
 }
+/*tirar a bolinha da frente do menu fonte e tamanho*/
 a:link {
     text-decoration: none;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 17px;
 }
+/*cor das letras*/
 a{
     color: black; 
 }
@@ -50,17 +71,21 @@ a{
     border-radius: 5px;
     font-size: 21px;
     margin-right: 50px ;
-    border: 1px solid red;
+    border: 2px solid red;
     padding-top: 45px;
+    margin-top: 50px;
+    margin-left: 150px;
 }
 .oqueoferecemos{
     padding: 10px;
     border-radius: 5px;
-    font-size: 17px;
-    height: 300px;
-    border: 1px solid red;
+    font-size: 20px;
+    height: 380px;
+    border: 2px solid red;
+    margin-top: 70px;
     
 }
+/*dois h1, direção cor e tamanho da letra*/
 .oqs{
     color: red;
     text-align: center;
@@ -69,18 +94,20 @@ a{
 .oqo{
     color: red;
 }
-/*planos*/
+/*tirou a bolinha da frente do texto*/
 li{
     list-style-type: none;
 }
+
+/*planos oferecido*/
+/*titulo h1*/
 .po{
-    margin: 60px ;
+    margin: 80px ;
     text-align: center;
     font-size: 35px;  
 }
 .planofree{
     border: 1px solid black;
-    padding-left: 10px;
     border-radius: 5px;
     font-size: 18px;
     width: 300px;
@@ -91,39 +118,52 @@ li{
 }
 .planomensal{
     border: 1px solid black;
-    padding: 10px;
     border-radius: 5px;
     font-size: 18px;
-    margin-left: 150px;
     width: 300px;
-    height:450px ;
-    background-color: red;
+    height:468px ;
+    background-color:red;
     color: white;
     text-align: center;
+    margin-left: 150px;
+    padding-right: 30px;
 }
 .planoanual{
     border: 1px solid black;
-    padding: 10px;
     border-radius: 5px;
     font-size: 18px;
-    margin-left: 150px;
     width: 300px;
-    height:450px ;
-    background-color: red;
+    height:468px ;
+    background-color:red;
     color: white;
     text-align: center;
+    margin-left: 150px;
+    padding-right: 30px;
 }
+/*section*/
 #pm{
     margin-top: 3px;
+   margin-left: 30px;
 }
 #pa{
     margin-top: 1px;
+    margin-left: 30px;
+    
+}
+/*h4 plano mensal*/
+.planom{
+    margin-left: 30px;
+}
+/*bordas nos containers*/
+#planos{
+    border-bottom: 1px solid rgb(184, 5, 5);
+    padding: 40px;
 }
 /*botao cadastrar*/
 .submit_btn{
     float: left;
     display: block;
-    padding: 5px 30px;
+    padding: 5px 20px;
     border: none;
     outline: none;
     background-color: rgb(255, 247, 237);
@@ -134,7 +174,7 @@ li{
     margin: 15px auto;
     cursor: pointer;
     transition: all 0.3s;
-    margin-left: 57px;
+    margin-left: 70px;
     
 }
 .submit_btn:hover{
@@ -142,3 +182,23 @@ li{
     color: red;
     transform: scale(1.03);
 }
+/*imagem calendario e h1*/
+.calendario{
+    margin-top: 60px;
+}
+/*margem na section e direção*/
+#oqueoferecemos{
+    justify-content: space-around;
+    margin-top: 20px;
+}
+/*h1 produtos título*/
+.prod{
+    text-align: center;
+    margin-top: 60px;
+}
+/*footer*/
+footer{
+  font-size: 15px;
+  text-align: center;
+}
+
