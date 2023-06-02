@@ -1,5 +1,5 @@
 .imagem{
-    background-color: rgb(255, 247, 237);
+    background-color: white;
     display: flex;
     align-items: center;
 }
@@ -8,12 +8,12 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 span{
-    color: red;
+    color: green;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 body{
-    background-color: rgb(255, 247, 237);
-    margin: 30px;
+    background-color: white;
+    margin: 5px;
 }
 
 .conteiner_form{
@@ -21,9 +21,9 @@ body{
     margin: auto;
     display: flex;
     flex-direction: column;
-    background: rgb(214, 47, 47); 
-    box-shadow: 1px 0px 1.2px 0px #e3e3e3; 
-    border-radius:15px; 
+    background: rgb(28, 163, 28);
+    box-shadow: 1px 0px 1.2px 0px #e3e3e3;
+    border-radius:7px;
     padding:1em;
 }
 
@@ -64,7 +64,7 @@ body{
     border: none;
     outline: none;
     background-color: rgb(255, 247, 237);
-    color: rgb(214, 47, 47);
+    color: rgb(28, 163, 28);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 25px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -76,11 +76,9 @@ body{
 }
 .submit_btn:hover {
     background-color: rgb(219, 216, 216);
-    color: red;
+    color: green;
     transform: scale(1.03);
 }
-
-
 
 .form_grupo label{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
