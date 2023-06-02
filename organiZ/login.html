@@ -1,38 +1,42 @@
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/formulario.css">
-    <title>organiZ</title>
+    <title>OrganiZ</title>
 </head>
-
 <header class="imagem">
-    <img src="imagem/logo organiZ.png" alt="logo" height="50px">
+    <img src="imagem/thumbnail_OrganiZ__1_-removebg-preview.png" alt="logo" height="60px">
     <h1 class="nome2">Organi<span>Z</span></h1>
 </header>
 
 <body>
     <section class="conteiner_form">
-        <h1>Faça seu Login</h1>
+        <h1>Login</h1>
         <form class="form" action="#" method="post">
 
+
             <div class="form_grupo">
-                <label for="email" class="form_label">Email</label>
-                <input type="email" name="email" class="form_input" id="email" placeholder="seuemail@email.com" required>
+                <label for="nome" class="form_label">Nome de usuário</label>
+                <input type="text" name="nome" class="form_input" id="nome" placeholder="Nome completo" required>
             </div>
 
             <div class="form_grupo">
-                <label for="senha" class="form_label">Senha</label>
-                <input type="password" name="senha" class="form_input" id="senha" placeholder="Digite sua senha" required>
+                <label for="senha" class="form_label">Insira sua senha</label>
+                <input type="password" name="senha" class="form_input" id="senha" placeholder="Digite sua senha"
+                    required>
             </div>
 
-            <div class="form_grupo">
+            <div class="submit">
                 <input type="hidden" name="acao" value="enviar">
-                <button type="submit" name="Submit" class="submit_btn" >Entrar</button>
+                <button type="submit" name="Submit" class="submit_btn">Entrar</button>
             </div>
+
         </form>
     </section>
-   
+
 </body>
+
 </html>
